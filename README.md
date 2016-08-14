@@ -4,7 +4,7 @@ Some config stuff for pilight
 # Usage
 sudo service pilight stop
 sudo rm -r pilight
-git clone 
+git clone https://github.com/JdenHartog/pilight.git
 
 
 
