@@ -1,0 +1,81 @@
+{
+        "devices": {
+                "stereo": {
+                        "protocol": [ "kaku_switch_old" ],
+                        "id": [{
+                                "id": 0,
+                                "unit": 12
+                        }],
+                        "state": "off"
+                },
+                "eettafel": {
+                        "protocol": [ "kaku_dimmer" ],
+                        "id": [{
+                                "id": 1,
+                                "unit": 12
+                        }],
+                        "state": "off",
+                        "dimlevel": 15
+		}, 
+               "bank": {
+                        "protocol": [ "kaku_dimmer" ],
+                        "id": [{
+                                "id": 2,
+                                "unit": 12
+                        }],
+                        "state": "off",
+                        "dimlevel": 15
+                },
+               "slaapkamer": {
+                        "protocol": [ "kaku_dimmer" ],
+                        "id": [{
+                                "id": 11,
+                                "unit": 12
+                        }],
+                        "state": "off",
+                        "dimlevel": 15
+                }
+        },
+        "rules": {},
+        "gui": {
+                "stereo": {
+                        "name": "Stereo",
+                        "group": [ "Woonkamer" ]
+                },
+                "eettafel": {
+                        "name": "Eettafel",
+                        "group": [ "Woonkamer" ]
+                },
+                "bank": {
+                        "name": "Bank",
+                        "group": [ "Woonkamer" ]
+                },
+                "slaapkamer": {
+                        "name": "Slaapkamer",
+                        "group": [ "Slaapkamer" ],
+                        "confirm": 1
+                }
+        },
+        "settings": {
+                "log-level": 6,
+                "pid-file": "/var/run/pilight.pid",
+                "log-file": "/var/log/pilight.log",
+                "webserver-enable": 1,
+                "webserver-root": "/usr/local/share/pilight/",
+                "webserver-http-port": 5001,
+                "webserver-cache": 1
+        },
+        "hardware": {
+                "433gpio": {
+                        "sender": 0,
+                        "receiver": -1
+                }
+        },
+        "registry": {
+                "pilight": {
+                        "version": {
+                                "current": "7.0"
+                        }
+                }
+        }
+}
