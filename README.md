@@ -15,7 +15,9 @@ nano /var/log/pilight.err
 
 service pilight status
 
-# Static IP /etc/dhcpcd.conf
+# Static IP
+sudo nano /etc/dhcpcd.conf
+
 interface eth0<br>
 static ip_address=192.168.1.100/24<br>
 static routers=192.168.1.1<br>
