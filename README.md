@@ -1,6 +1,8 @@
 # PiLight
 Some config stuff for pilight on RASPBIAN JESSIE LITE
 
+raspi-config
+
 # Usage
 sudo service pilight stop
 
