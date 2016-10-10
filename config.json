@@ -52,8 +52,7 @@
                 },
                 "slaapkamer": {
                         "name": "Slaapkamer",
-                        "group": [ "Slaapkamer" ],
-                        "confirm": 1
+                        "group": [ "Slaapkamer" ]
                 }
         },
         "settings": {
