@@ -8,7 +8,7 @@ sudo service pilight stop
 
 sudo rm -r pilight
 
-git clone https://github.com/JdenHartog/pilight.git
+sudo git clone https://github.com/JdenHartog/pilight.git
 
 
 
