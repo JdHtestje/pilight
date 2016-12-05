@@ -26,7 +26,15 @@
                         "state": "off",
                         "dimlevel": 15
                 },
-               "slaapkamer": {
+		"keukenkast": {
+                        "protocol": [ "kaku_switch_old" ],
+                        "id": [{
+                                "id": 3,
+                                "unit": 12
+                        }],
+                        "state": "off"
+                },
+               	"slaapkamer": {
                         "protocol": [ "kaku_dimmer" ],
                         "id": [{
                                 "id": 11,
@@ -48,6 +56,10 @@
                 },
                 "bank": {
                         "name": "Bank",
+                        "group": [ "Woonkamer" ]
+                },
+		"keukenkast": {
+                        "name": "Keukenkast",
                         "group": [ "Woonkamer" ]
                 },
                 "slaapkamer": {
