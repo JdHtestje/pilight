@@ -34,6 +34,24 @@
                         }],
                         "state": "off"
                 },
+               	"gang": {
+                        "protocol": [ "kaku_dimmer" ],
+                        "id": [{
+                                "id": 7,
+                                "unit": 12
+                        }],
+                        "state": "off",
+                        "dimlevel": 15
+                },
+               	"hal": {
+                        "protocol": [ "kaku_dimmer" ],
+                        "id": [{
+                                "id": 8,
+                                "unit": 12
+                        }],
+                        "state": "off",
+                        "dimlevel": 15
+                },
                	"slaapkamer": {
                         "protocol": [ "kaku_dimmer" ],
                         "id": [{
@@ -62,9 +80,17 @@
                         "name": "Keukenkast",
                         "group": [ "Woonkamer" ]
                 },
+                "gang": {
+                        "name": "Gang",
+                        "group": [ "De Rest" ]
+                },
+                "hal": {
+                        "name": "Hal",
+                        "group": [ "De Rest" ]
+                },
                 "slaapkamer": {
                         "name": "Slaapkamer",
-                        "group": [ "Slaapkamer" ]
+                        "group": [ "De Rest" ]
                 }
         },
         "settings": {
