@@ -37,7 +37,7 @@
                	"gang": {
                         "protocol": [ "kaku_switch_old" ],
                         "id": [{
-                                "id": 7,
+                                "id": 4,
                                 "unit": 12
                         }],
                         "state": "off"
@@ -45,7 +45,7 @@
                	"hal": {
                         "protocol": [ "kaku_switch_old" ],
                         "id": [{
-                                "id": 8,
+                                "id": 5,
                                 "unit": 12
                         }],
                         "state": "off"
