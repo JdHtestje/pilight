@@ -35,23 +35,21 @@
                         "state": "off"
                 },
                	"gang": {
-                        "protocol": [ "kaku_dimmer" ],
+                        "protocol": [ "kaku_switch_old" ],
                         "id": [{
                                 "id": 7,
                                 "unit": 12
                         }],
-                        "state": "off",
-                        "dimlevel": 15
+                        "state": "off"
                 },
                	"hal": {
-                        "protocol": [ "kaku_dimmer" ],
+                        "protocol": [ "kaku_switch_old" ],
                         "id": [{
                                 "id": 8,
                                 "unit": 12
                         }],
-                        "state": "off",
-                        "dimlevel": 15
-                },
+                        "state": "off"
+		},
                	"slaapkamer": {
                         "protocol": [ "kaku_dimmer" ],
                         "id": [{
