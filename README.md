@@ -4,14 +4,14 @@ Some config stuff for [pilight](https://www.pilight.org) (and more) on [2016-09-
 raspi-config
 
 # Usage
-sudo service pilight stop
-cd /etc
-sudo rm -r pilight
-sudo git clone https://github.com/JdenHartog/pilight.git
+sudo service pilight stop<br>
+cd /etc<br>
+sudo rm -r pilight<br>
+sudo git clone https://github.com/JdenHartog/pilight.git<br>
 
 # Get info
-nano /var/log/pilight.err
-service pilight status
+nano /var/log/pilight.err<br>
+service pilight status<br>
 
 # Static IP (also done with Pi-hole)
 sudo nano /etc/dhcpcd.conf
