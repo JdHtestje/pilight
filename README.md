@@ -9,6 +9,10 @@ cd /etc<br>
 sudo rm -r pilight<br>
 sudo git clone https://github.com/JdenHartog/pilight.git<br>
 
+# Change title
+sudo service pilight stop<br>
+sudo nano /usr/local/share/pilight/index.html
+
 # Get info
 nano /var/log/pilight.err<br>
 service pilight status<br>
