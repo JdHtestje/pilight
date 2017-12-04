@@ -28,3 +28,6 @@ static domain_name_servers=192.168.1.1
 
 # Pi-hole
 curl -L https://install.pi-hole.net | bash
+
+optionally add Speedtest to Pihole WebUI<br>
+https://blog.arevindh.com/2017/07/13/add-speedtest-to-pihole-webui/
