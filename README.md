@@ -1,5 +1,5 @@
 # pilight
-Some config stuff for [pilight](https://www.pilight.org) (and more) on [2016-09-23-raspbian-jessie-lite](https://www.raspberrypi.org/downloads/raspbian/)
+Some config stuff for [pilight](https://www.pilight.org) (and more) on [2017-11-29-raspbian-stretch-lite](https://www.raspberrypi.org/downloads/raspbian/)
 
 raspi-config
 
