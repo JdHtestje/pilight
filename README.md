@@ -5,9 +5,11 @@ raspi-config
 
 # Usage
 sudo service pilight stop<br>
-cd /etc<br>
-sudo rm -r pilight<br>
+cd /etc/pilight<br>
+sudo rm config.json<br>
 sudo git clone https://github.com/JdenHartog/pilight.git<br>
+sudo cp pilight/config.json config.json<br>
+sudo rm -r pilight<br>
 
 # Change title
 sudo service pilight stop<br>
