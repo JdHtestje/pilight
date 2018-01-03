@@ -96,9 +96,11 @@
                 "pid-file": "/var/run/pilight.pid",
                 "log-file": "/var/log/pilight.log",
                 "webserver-enable": 1,
-                "webserver-root": "/usr/local/share/pilight/",
+                "webserver-root": "/usr/local/share/pilight/webgui",
                 "webserver-http-port": 5001,
-                "webserver-cache": 1
+                "webserver-https-port": 5002,
+                "webserver-cache": 1,
+                "gpio-platform": "raspberrypi1b1"
         },
         "hardware": {
                 "433gpio": {
@@ -106,11 +108,5 @@
                         "receiver": -1
                 }
         },
-        "registry": {
-                "pilight": {
-                        "version": {
-                                "current": "7.0"
-                        }
-                }
-        }
+        "registry": {}
 }
