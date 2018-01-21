@@ -33,3 +33,7 @@ curl -L https://install.pi-hole.net | bash
 
 optionally add Speedtest to Pihole WebUI<br>
 https://blog.arevindh.com/2017/07/13/add-speedtest-to-pihole-webui/
+
+
+
+test2
